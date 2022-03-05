@@ -1,3 +1,4 @@
+/* STYLES THAT AFFECT: HOME, ABOUT, CONTACT */
 body {
     font-family: 'Lato', sans-serif;
     background-color: #FFF3F7;
@@ -6,4 +7,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 400px;
 }
+/* HOME STYLES */
+/* ABOUT STYLES */
+/* CONTACT STYLES */
