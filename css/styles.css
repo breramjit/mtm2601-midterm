@@ -10,6 +10,45 @@ body {
     margin-right: auto;
     width: 400px;
 }
+/*===== HOME BODY SECTION =====*/
+h1 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 15px;
+}
+.home-text {
+    color: black;
+    font-size: 24px;
+}
+/*===== ABOUT BODY SECTION =====*/
+h2 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 15px;
+}
+.about-text {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 15px;
+}
+/*===== ABOUT BODY SECTION =====*/
+h3 {
+    color: #DD2013;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+.contact-text {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
 /*===== NAV SECTION =====*/
 
 /*===== FOOTER SECTION =====*/
