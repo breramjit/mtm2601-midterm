@@ -9,7 +9,31 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 400px;
+    padding-bottom: 45px;
 }
+
+/*===== NAV SECTION =====*/
+nav ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+    flex: 1;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #DD2013;
+    margin-left: 36px;
+    margin-right: 36px;
+    font-size: 24px;
+}
+.nav-links {
+    background-color: #FFC4D8;
+    padding: 20px;
+}
+
 /*===== HOME BODY SECTION =====*/
 h1 {
     color: black;
@@ -17,10 +41,13 @@ h1 {
     font-weight: bold;
     font-size: 40px;
     padding: 15px;
+    padding-top: 45px;
 }
 .home-text {
     color: black;
     font-size: 24px;
+    margin-left: 36px;
+    margin-right: 36px;
 }
 /*===== ABOUT BODY SECTION =====*/
 h2 {
@@ -29,27 +56,32 @@ h2 {
     font-weight: bold;
     font-size: 40px;
     padding: 15px;
+    padding-top: 45px;
 }
 .about-text {
     color: black;
     font-size: 24px;
     text-align: center;
     padding: 15px;
+    margin-left: 36px;
+    margin-right: 36px;
 }
-/*===== ABOUT BODY SECTION =====*/
+/*===== CONTACT BODY SECTION =====*/
 h3 {
     color: #DD2013;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
     padding: 15px;
+    padding-top: 45px;
 }
 .contact-text {
     color: black;
     font-size: 24px;
     text-align: center;
+    margin-left: 36px;
+    margin-right: 36px;
 }
-/*===== NAV SECTION =====*/
 
 /*===== FOOTER SECTION =====*/
 footer {
@@ -64,6 +96,11 @@ footer {
     padding-top: 15px;
 }
 
+/*===== DESKTOP STYLES =====*/
+
+@media screen and (min-width: 1200px){
+    
+}
 
 
 
