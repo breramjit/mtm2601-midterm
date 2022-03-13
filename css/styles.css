@@ -46,6 +46,18 @@ h1 {
     padding: 15px;
     padding-top: 36px;
 }
+/*===== WELCOME ANIMATION =====*/
+.welcome {
+    animation-name: welcome;
+    animation-duration: 3s;
+}
+@keyframes welcome {
+    0% {color: #FFC4D8;}
+    25% {color: #DD2013;}
+    50% {color: #FFC4D8;}
+    100% {color: #DD2013;}
+}
+/*===== END WELCOME ANIMATION =====*/
 .home-text {
     color: black;
     font-size: 16px;
