@@ -127,6 +127,7 @@ footer {
 .footer-contact {
     font-size: 10px;
 }
+
 /*===== HIDE NECKLACES IMAGE FROM MOBILE VIEW =====*/
 @media (max-width:767px) {
     .necklaces {
@@ -157,9 +158,9 @@ footer {
         padding-right: 30px;
     }
     .necklaces {
-        display: inline-block;
-        align-items: center;
-    
+        padding-left: 180px;
+        padding-bottom: 30px;
+    }
         /*===== ABOUT SECTION =====*/
     h2 {
         font-size: 36px;
