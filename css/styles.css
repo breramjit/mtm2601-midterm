@@ -127,6 +127,9 @@ h3 {
     margin-right: 36px;
     padding-top: 12.6px;
 }
+.social-media {
+    padding-bottom: 255px;
+}
 
 /*===== FOOTER SECTION =====*/
 footer {
@@ -205,6 +208,9 @@ footer {
     }
     .contact-text {
         font-size: 20px;
+    }
+    .social-media {
+        padding-bottom: 250px;
     }
     
     /*===== FOOTER SECTION =====*/
