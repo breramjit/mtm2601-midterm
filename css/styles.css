@@ -36,6 +36,12 @@ nav ul li a {
     padding: 20px;
     width: 100%
 }
+/*===== NAV ANIMATION =====*/
+nav a:hover {
+    color:#FFF3F7;
+    transition: transform 2s;
+}
+/*===== END NAV ANIMATION =====*/
 
 /*===== HOME SECTION =====*/
 h1 {
